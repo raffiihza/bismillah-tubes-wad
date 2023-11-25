@@ -15,11 +15,11 @@
     <div class="form-field">
       <input type="username" placeholder="Username" required/>
     </div>
-    
+
     <div class="form-field">
-      <input type="password" placeholder="Password" required/>                     
+      <input type="password" placeholder="Password" required/>
   </div>
-    
+
     <div class="form-field">
       <button class="btn" type="submit">LOGIN</button>
     </div>
