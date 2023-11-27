@@ -24,14 +24,3 @@
         </div>
     </div>
 @endsection
-
-@push('scripts')
-<script src="https://cdn.ckeditor.com/ckeditor5/35.1.0/classic/ckeditor.js"></script>
-<script>
-    ClassicEditor
-        .create(document.querySelector('#informasi-textfield'))
-        .catch(error => {
-            console.error(error);
-        });
-</script>
-@endpush
