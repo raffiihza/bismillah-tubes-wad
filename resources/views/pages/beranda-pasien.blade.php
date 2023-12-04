@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <nav class="flex justify-between fixed w-full z-[10] items-center px-10 py-4 bg-[#D9D9D9]">
+    <nav class="flex justify-between fixed w-full z-[10] items-center px-10 py-4 bg-[#D9D9D9] flex-col md:flex row">
         <div class="flex gap-4 items-center">
             <img src="/telkomedika-logo.png" alt="logo" class="w-[70px]">
             <div>
@@ -25,12 +25,12 @@
         </div>
 
         <div>
-            <a class="block px-5 py-2 bg-red-600 text-white rounded-md" href="{{ route('login') }}">Login</a>
+            <a class="block px-5 py-2 bg-red-600 text-white rounded-md" href="">Login</a>
         </div>
     </nav>
 
     <main class="relative min-h-screen overflow-hidden pt-[10rem]">
-        <img src="/bg.jpeg" alt="bg" class="absolute contrast-50 top-0 w-full bg-cover">
+        <img src="/bg.jpeg" alt="bg" class="absolute contrast-50 h-full top-0 w-full bg-cover">
 
         <div class="relative z-[9]">
             <div class="flex flex-col gap-5 items-center">
@@ -39,17 +39,17 @@
                 <h3 class="bg-red-600 inline-block px-3 text-sm font-bold py-1 rounded-md text-white uppercase">Di website Telkomedika</h3>
             </div>
 
-            <div class="mt-8 max-w-2xl mx-auto flex gap-10 justify-between items-center">
+            <div class="mt-8 max-w-2xl mx-auto flex flex-col md:flex-row gap-10 justify-between items-center">
                 <div class="bg-white rounded-md w-[250px]">
                     <img class="w-[150px] block mx-auto" src="/people.png" alt="people">
                     <div class="mt-2 border-t flex justify-center py-2">
-                        <a href="{{ route('form-pendaftaran') }}" class="px-4 py-2 bg-red-600 font-bold text-white text-sm rounded-full ">Daftar Antri</a>
+                        <a href="" class="px-4 py-2 bg-red-600 font-bold text-white text-sm rounded-full ">Daftar Antri</a>
                     </div>
                 </div>
                 <div class="bg-white rounded-md w-[250px]">
                     <img class="w-[100px] block mx-auto" src="/document.png" alt="document">
                     <div class="mt-2 border-t flex justify-center py-2">
-                        <a href="{{ route('landing-page') }}" class="px-4 py-2 bg-red-600 font-bold text-white text-sm rounded-full ">Informasi</a>
+                        <a href="" class="px-4 py-2 bg-red-600 font-bold text-white text-sm rounded-full ">Informasi</a>
                     </div>
                 </div>
             </div>

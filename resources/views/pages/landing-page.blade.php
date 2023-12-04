@@ -10,8 +10,8 @@
 
 </head>
 <body>
-  <section class="bg-red-600 px-20 py-20">
-    <div class="flex gap-2 justify-between max-w-screen-lg mx-auto">
+  <section class="bg-red-600 px-10 md:px-20 py-20">
+    <div class="flex flex-col-reverse md:flex-row gap-2 justify-between max-w-screen-lg mx-auto">
       <div class="flex flex-col justify-center">
         <p class="text-white">Healthcare Management Service Partner</p>
         <h1 class="text-white text-4xl font-bold mt-5">Telkomedika <br>
@@ -25,11 +25,11 @@
   </section>
 
 
-  <section class="px-5 flex mt-4 gap-10">
-    <div class="relative w-1/2">
+  <section class="px-5 flex flex-col md:flex-row mt-4 gap-10">
+    <div class="relative w-full md:w-1/2">
       <img class="w-full" src="/bg-landing.png" alt="bg landing">
 
-      <div class="flex p-4 relative gap-10 z-10 bg-red-600 w-[400px]  justify-center ml-8 top-[-150px]">
+      <div class="flex p-4 relative gap-10 z-10 bg-red-600 w-full md:w-[400px]  justify-center md:ml-8 md:top-[-150px]">
         <div class="py-20 border-r border-white pr-7 text-center">
           <p class="text-white font-bold">Rp 6 JT</p>
           <p class="text-white">Max Biaya Opname</p>
@@ -40,7 +40,7 @@
         </div>
       </div>
     </div>
-    <div class="w-1/2 flex flex-col gap-5 mt-[10rem] ">
+    <div class="w-full md:w-1/2 flex flex-col gap-5 md:mt-[10rem] ">
       <p>Layanan khusus civitas Telkom</p>
       <h2 class="text-3xl font-bold">Increase Shareholder
         Value By Business Sustainability</h2>
@@ -53,10 +53,10 @@
     </div>
   </section>
 
-  <section class="mb-10">
+  <section class="mb-10 mt-10 px-3">
     <h3 class="text-center mb-5 font-semibold text-xl text-red-700">Berita Terbaru</h3>
 
-    <div class="max-w-screen-xl mx-auto grid grid-cols-3 gap-5">
+    <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
       <div class="shadow-xl">
         <img src="/berita-1.jpeg" class="w-full h-[220px] bg-cover" alt="berita-1">
 
