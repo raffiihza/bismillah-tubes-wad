@@ -49,7 +49,7 @@
                 <div class="bg-white rounded-md w-full max-w-[300px]">
                     <img class="w-[100px] block mx-auto" src="/document.png" alt="document">
                     <div class="mt-2 border-t flex justify-center py-2 px-5 md:px-0 text-center">
-                        <a href="{{ route('artikel') }}" class="px-4 py-2 bg-red-600 block w-full md:w-auto md:inline-block font-bold text-white text-sm rounded-full ">Informasi</a>
+                        <a href="{{ route('informasi') }}" class="px-4 py-2 bg-red-600 block w-full md:w-auto md:inline-block font-bold text-white text-sm rounded-full ">Informasi</a>
                     </div>
                 </div>
             </div>
